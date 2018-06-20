@@ -5,24 +5,24 @@
     <title>Regístrate</title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-        Nombre: <input type="text"><br>
-        Apellido: <input type="text"><br>
-        Email: <input type="email" required><br>
-        Clave: <input type="password" minlength=5><br>  
-        Cumpleaños: <input type="date"><br>
+    <form method="get">
+        Nombre: <input type="text" name="nombre"><br>
+        Apellido: <input type="text" name="apellido"><br>
+        Email: <input type="email" name="email" required><br>
+        Clave: <input type="password" name="password" minlength=5><br>
+        Cumpleaños: <input type="date" name="cumple"><br>
         Género:<br>
         <input type="radio" name="genero">Hombre <br>
         <input type="radio" name="genero">Mujer <br>
         <input type="radio" name="genero">Otro <hr>
         Mascota:<br>
-        <input type="checkbox"> Perro<br>
-        <input type="checkbox"> Gato<br>
-        <input type="checkbox"> Hamster<hr>
+        <input type="checkbox" name="perro"> Perro<br>
+        <input type="checkbox" name="gato"> Gato<br>
+        <input type="checkbox" name="hamster"> Hamster<hr>
         Carros: <br>
         <select>
-            <option value="volvo">Volvo</option>
-            <option value="audi">Audi</option>
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="audi" name="audi">Audi</option>
         </select><br>
         <input type="submit" value="Registro">
         <input type="reset" value="Limpiar el formulario">
