@@ -2,20 +2,28 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Regístrate</title>
   </head>
   <body>
     <form class="" action="index.html" method="post">
         Nombre: <input type="text"><br>
         Apellido: <input type="text"><br>
-        Email: <input type="email"><br>
+        Email: <input type="email" required><br>
+        Clave: <input type="password" minlength=5><br>  
         Cumpleaños: <input type="date"><br>
         Género:<br>
         <input type="radio" name="genero">Hombre <br>
         <input type="radio" name="genero">Mujer <br>
         <input type="radio" name="genero">Otro <hr>
-        Región:
-        <input type="checkbox" name="" value="Verdadero"> Valle <br>
+        Mascota:<br>
+        <input type="checkbox"> Perro<br>
+        <input type="checkbox"> Gato<br>
+        <input type="checkbox"> Hamster<hr>
+        Carros: <br>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+        </select><br>
         <input type="submit" value="Registro">
         <input type="reset" value="Limpiar el formulario">
     </form>
